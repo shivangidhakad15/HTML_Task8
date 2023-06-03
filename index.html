@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Task 8</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1>Registration Form</h1>
+<table>
+<tr>
+  <td class="left">First Name</td>
+  <td><input type="text" name="firstname" id="firstname" ></td>
+</tr>
+<tr>
+  <td class="left">Last Name</td>
+  <td><input type="text" name="lastname" id="lastname" ></td>
+</tr>
+<tr>
+  <td class="left">Email</td>
+  <td><input type="text" name="email" id="email"></td>
+</tr>
+<tr>
+  <td class="left">Password</td>
+  <td><input type="password" name="password" id="password" ></td>
+</tr>
+<tr>
+  <td class="left">Re-enter Password</td>
+  <td><input type="password" name="repassword" id="repassword" ></td>
+</tr>
+<tr>
+  <td class="left">Gender</td>
+  <td><input type="radio" name="gender" value="male" >Male
+    <br><input type="radio" name="gender" value="female" >Female</td>
+</tr>
+<tr>
+  <td class="left">Phone Number</td>
+  <td><input type="text" name="phone" id="phone" ></td>
+</tr>
+<tr>
+  <td class="left">Address</td>
+  <td><textarea name="address" rows="5" cols="50"></textarea></td>
+</tr>
+<tr>
+  <td class="left">State</td>
+  <td><input type="text" name="state"></td>
+</tr>
+<tr>
+  <td class="left">Country</td>
+  <td><select name="country" required>
+    <option disabled selected value="">Choose your country</option>
+    <option value="option1">Option 1</option>
+    <option value="option2">Option 2</option>
+    <option value="option3">Option 3</option></td>
+</select>
+</tr>
+<tr>
+  <td class="left">Languages Known</td>
+  <td>
+    <input type="checkbox" name="languages" value="english">English
+    <input type="checkbox" name="languages" value="kannada">Kannada
+    <input type="checkbox" name="languages" value="hindi">Hindi
+    <input type="checkbox" name="languages" value="telugu">Telugu
+  </td>
+</tr>
+<tr>
+  <td colspan="2"><input type="checkbox" name="declare" required>
+  Hereby I declare all the given details are true</td>
+</tr>
+<tr>
+  <td class="link" colspan="2">Log in to <a href="#">Ethnus</a> website</td>
+</tr>
+</table>
+<br>
+<input class="register" type="submit" value="Register">
+</body>
+</html>
